@@ -1,0 +1,55 @@
+.pokemons{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    padding: 10px 30px;
+    gap:10px;   
+}
+.pokItem,.detail{
+    width: 30%;
+    border:1px solid grey;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    padding:10px;
+}
+.detail{
+    width: 20%;
+    margin: 30px auto
+}
+.detail img{
+    width:50%;
+}
+.pokItem img{
+    width: 50%;
+}
+.pokItem p{
+    margin:10px 0;
+}
+.hide{
+    display:none;
+}
+.show{
+    display:block;
+}
+.search{
+     background: grey;
+    width:20%;
+    margin:10px auto
+}
+.searching{
+   gap: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: -1px 11px;
+    padding: 2px;
+
+}
+.searching img{
+    width: 10%;
+}
+.searching:hover{
+   background: burlywood;
+}
